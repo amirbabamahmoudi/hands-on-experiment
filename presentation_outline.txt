@@ -1,0 +1,84 @@
+BATTERY CAPACITY PREDICTION - PRESENTATION OUTLINE
+==================================================
+
+SLIDE 1: TITLE SLIDE
+- Title: Battery Capacity Prediction Using Machine Learning
+- Subtitle: Predicting Battery Performance Through Impedance Analysis
+- Key achievements: 88% R² score, Random Forest model, Classification system
+
+SLIDE 2: PROBLEM STATEMENT
+- Challenge: Battery degradation prediction is critical
+- Traditional methods are time-consuming
+- Objectives: ML models, algorithm comparison, classification system
+
+SLIDE 3: DATASET OVERVIEW  
+- Battery impedance measurements
+- Multiple impedance parameters as features
+- Target: Battery capacity values
+- Clean dataset with good feature relationships
+
+SLIDE 4: METHODOLOGY
+- Data preprocessing: standardization, feature selection
+- 5 ML models: Linear, Ridge, Lasso, Random Forest, SVR
+- Grid search optimization
+- 4-fold cross-validation
+
+SLIDE 5: MODEL PERFORMANCE
+- Best model: Random Forest (optimized)
+- Test R²: 0.8798 (88% variance explained)
+- RMSE: 252.99
+- MAE: 172.92
+- Good generalization, minimal overfitting
+
+SLIDE 6: CLASSIFICATION RESULTS
+- 5-bin classification system based on capacity
+- Test accuracy: 91.49%
+- F1 weighted: 91.34%
+- Excellent classification performance
+
+SLIDE 7: MODEL INSIGHTS
+- Random Forest outperformed linear models
+- Non-linear relationships identified
+- Cross-validation score: 0.8133
+- Robust model selection
+
+SLIDE 8: PRACTICAL APPLICATIONS
+- Predictive maintenance
+- Quality control
+- Fleet management
+- Non-destructive testing capability
+
+SLIDE 9: TECHNICAL ARCHITECTURE
+- Modular Python implementation
+- 4 main modules: data_loader, preprocessor, model_trainer, evaluator
+- Reproducible research approach
+- Saved model artifacts
+
+SLIDE 10: RESULTS VISUALIZATION
+- Comprehensive analysis plots generated
+- Prediction vs actual plots
+- Residual analysis
+- Performance comparison charts
+
+SLIDE 11: CONCLUSIONS
+- 88% R² accuracy achieved
+- 91% classification accuracy
+- Production-ready model
+- Practical non-destructive testing value
+
+SLIDE 12: FUTURE WORK
+- Expanded datasets
+- Deep learning approaches
+- Real-time deployment
+- IoT integration
+
+SLIDE 13: Q&A
+- Thank you slide
+- Ready for questions about technical details, applications, deployment
+
+KEY METRICS TO HIGHLIGHT:
+- R² Score: 0.8798 (88% variance explained)
+- Classification Accuracy: 91.49%
+- RMSE: 252.99
+- Cross-validation score: 0.8133
+- F1 weighted score: 91.34%
